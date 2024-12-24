@@ -15,6 +15,7 @@ header {
 }
 
 h1 {
+    margin: 45px 0 0 0;
     color: #efbf04;
     font-weight: 700;
     font-size: 64px;
@@ -136,6 +137,19 @@ h3 {
 }
 
 .gift-eight:hover ~ .gift-eight-text {
+    color: #efbf04;
+    font-size: 28px;
+}
+
+/* Gift Nine */
+
+.gift-nine:hover {
+    background-image: url(../images/mia.jpg) ;
+    background-size:100% 100%;
+    border: 10px solid #3c8d0d;
+}
+
+.gift-nine:hover ~ .gift-nine-text {
     color: #efbf04;
     font-size: 28px;
 }
