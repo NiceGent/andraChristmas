@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background-color: #c23b22;
+    color: #fff;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 28px;
+    color:#c23b22
+}
+
+header {
+    color: #fff;
+}
+
+h1 {
+    color: #efbf04;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.gifts {
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 10px solid #efbf04;
+    border-radius: 35px;
+    background-image: url(../images/giftwrap.jpg);
+}
+
+/* Gift One */
+
+.gift-one:hover {
+    background-image: url(../images/loyal.jpg) ;
+    background-size:100% 100%;
+    border: 10px solid #3c8d0d;
+}
+
+.gift-one:hover ~ .gift-one-text {
+    color: #efbf04;
+    font-size: 28px;
+}
+
+/* Gift Two */
+
+.gift-two:hover {
+    background-image: url("https://media.tenor.com/LAD_bvkJkfwAAAAM/pineapple-butt-shake.gif") ;
+    background-size:100% 100%;
+    border: 10px solid #3c8d0d;
+}
+
+.gift-two:hover ~ .gift-two-text {
+    color: #efbf04;
+    font-size: 28px;
+}
+
+/* Gift Three */
+
+.gift-three:hover {
+    background-image: url(../images/bob.jpg) ;
+    background-size:100% 100%;
+    border: 10px solid #3c8d0d;
+}
+
+.gift-three:hover ~ .gift-three-text {
+    color: #efbf04;
+    font-size: 28px;
+}
+
+/* Gift Four */
+
+.gift-four:hover {
+    background-image: url(../images/dignity.jpg) ;
+    background-size:100% 100%;
+    border: 10px solid #3c8d0d;
+}
+
+.gift-four:hover ~ .gift-four-text {
+    color: #efbf04;
+    font-size: 28px;
+}
+
+/* Gift Five */
+
+
+.gift-five:hover {
+    background-image: url(../images/superman.jpg) ;
+    background-size:100% 100%;
+    border: 10px solid #3c8d0d;
+}
+
+.gift-five:hover ~ .gift-five-text {
+    color: #efbf04;
+    font-size: 28px;
+}
+
+/* Gift Six */
+.gift-six:hover {
+    background-image: url(../images/mum.jpg) ;
+    background-size:100% 100%;
+    border: 10px solid #3c8d0d;
+}
+
+.gift-six:hover ~ .gift-six-text {
+    color: #efbf04;
+    font-size: 28px;
+}
+
+
+/* Gift Seven */
+
+.gift-seven:hover {
+    background-image: url(../images/movie.jpg) ;
+    background-size:100% 100%;
+    border: 10px solid #3c8d0d;
+}
+
+.gift-seven:hover ~ .gift-seven-text {
+    color: #efbf04;
+    font-size: 28px;
+}
+
+/* Gift Eight */
+
+.gift-eight:hover {
+    background-image: url(https://media.tenor.com/FSI2WWHS8oMAAAAi/tkthao219-bubududu.gif) ;
+    background-size:100% 100%;
+    border: 10px solid #3c8d0d;
+}
+
+.gift-eight:hover ~ .gift-eight-text {
+    color: #efbf04;
+    font-size: 28px;
+}
+
+.footer {
+    /* position: absolute;
+    bottom: 0; */
+    background-color: #efbf04;
+    font-size: 42px;
+    color: #c23b22;
+    font-weight: 900;
+    margin: 40 0 0 0;
+    padding: 40 0 40 0;
+}
+
+.footer-text {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.gold {
+    color: #efbf04;
+}
